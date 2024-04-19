@@ -1,5 +1,6 @@
 import 'package:courses_app/consts/conststant.dart';
 import 'package:courses_app/models/courses_model.dart';
+import 'package:courses_app/screens/fetch_courses.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -73,7 +74,14 @@ class _HomePageState extends State<HomePage> {
                           ),
                           child: Column(children: [
                             GestureDetector(
-                              onTap: () {},
+                              onTap: () {
+                                Navigator.push(context,
+                                    MaterialPageRoute(builder: (context) {
+                                  return FetchCourses(
+                                    links: courses[index].links,
+                                  );
+                                }));
+                              },
                               child: Container(
                                 child: Card(
                                   clipBehavior: Clip.antiAliasWithSaveLayer,
