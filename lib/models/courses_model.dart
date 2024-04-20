@@ -281,123 +281,123 @@ List<Course> allCourses = [
   //9
   Course(name: '$course9', imageUrl: 'assets/images/html.png', links: [
     Links(
-        name: '(Coursera)',
+        name: 'HTML, CSS, and Javascript(Coursera)',
         url:
             'https://www.coursera.org/learn/html-css-javascript-for-web-developers'),
     Links(
-        name: '(Coursera)',
+        name: 'web development html(Coursera)',
         url:
             'https://www.coursera.org/search?query=web%20development%20html&sortBy=BEST_MATCH&utm_medium=sem&utm_source=gg&utm_campaign=b2c_emea_coursera_ftcof_career-academy_arte_march_24_dr_geo-multi-set3_pmax_gads_lg-all&campaignid=21103949440&adgroupid=&device=m&keyword=&matchtype=&network=x&devicemodel=&adposition=&creativeid=&hide_mobile_promo=&gad_source=1&gclid=CjwKCAjw8diwBhAbEiwA7i_sJUfYm-8NpkLerm7Ko8f7sed6s6b-u61jPzzylb-TNSFRQAMmB3XlrxoCn74QAvD_BwE'),
     Links(
-        name: '(Coursera)',
+        name: 'web development css(Coursera)',
         url: 'https://www.coursera.org/search?query=web%20development%20css'),
-    Links(name: '(Udemy)', url: 'https://www.udemy.com/topic/html/'),
-    Links(name: '(Udemy)', url: 'https://www.udemy.com/topic/css/'),
-    Links(name: '(Udemy)', url: 'https://www.udemy.com/topic/javascript/'),
+    Links(name: 'HTML Courses(Udemy)', url: 'https://www.udemy.com/topic/html/'),
+    Links(name: 'CSS Courses(Udemy)', url: 'https://www.udemy.com/topic/css/'),
+    Links(name: 'JavaScript Courses(Udemy)', url: 'https://www.udemy.com/topic/javascript/'),
     Links(
-        name: '(Youtube channel)',
+        name: 'كيف تصبح مبرمج(Youtube channel)',
         url:
             'https://www.youtube.com/watch?v=WWn8tOHjZbw&list=PLSiLeKadTQ7kF7p-kd3gkHr6BAwQKYYSv'),
     Links(
-        name: '(Youtube Channel)',
+        name: 'HTML من الصفر الى الاحتراف(Youtube Channel)',
         url: 'https://www.youtube.com/watch?v=8vOlpOa4d7o'),
     Links(
-        name: '(Youtube Channel)',
+        name: 'CSS من الصفر الى الاحتراف(Youtube Channel)',
         url: 'https://www.youtube.com/watch?v=RMw0l0KP0gc'),
     Links(
-        name: '(Youtube Channel)',
+        name: 'دورة تعلم تصميم مواقع الانترنت(Youtube Channel)',
         url:
             'https://www.youtube.com/watch?v=VZhZ7mX6_jc&list=PL0fZfIBWrsucq6XAZgLuig8nRi5IcVF2o'),
   ]),
   //10
   Course(name: '$course10', imageUrl: 'assets/images/frontend.png', links: [
     Links(
-        name: '(Coursera)',
+        name: 'Front End Web Development(Coursera)',
         url:
             'https://www.coursera.org/search?query=Front%20End%20Web%20Development'),
     Links(
-        name: '(Udemy)',
+        name: 'Front End Web Development Courses(Udemy)',
         url: 'https://www.udemy.com/topic/front-end-web-development/'),
     Links(
-        name: '(Youtube channel)',
+        name: 'Learn HTML In One Video(Youtube channel)',
         url:
             'https://www.youtube.com/watch?v=qfPUMV9J5yw&list=PLDoPjvoNmBAzhFD3niPAa1C1gXG4cs14J'),
     Links(
-        name: '(Youtube channel)',
+        name: 'Frontend Web Development Bootcamp Course(Youtube channel)',
         url: 'https://www.youtube.com/watch?v=zJSY8tbf_ys'),
   ]),
   //11
   Course(name: '$course11', imageUrl: 'assets/images/php.png', links: [
-    Links(name: '(Coursera)', url: 'https://www.coursera.org/search?query=PHP'),
-    Links(name: '(Udemy)', url: 'https://www.udemy.com/topic/php/'),
+    Links(name: 'PHP Courses(Coursera)', url: 'https://www.coursera.org/search?query=PHP'),
+    Links(name: 'PHP(Udemy)', url: 'https://www.udemy.com/topic/php/'),
     Links(
-        name: '(Youtube channel)',
+        name: 'التعرف على لغة PHP(Youtube channel)',
         url:
             'https://www.youtube.com/watch?v=yDt8oy4-M9I&list=PLSiLeKadTQ7mfep8d_FXWLnoARZyXJ5ob'),
     Links(
-        name: '(Youtube channel)',
+        name: 'php-course - why php ?(Youtube channel)',
         url:
             'https://www.youtube.com/watch?v=4JLErNiQowQ&list=PLe_UJpVeP8qBr0IotQa16V0TCLsf3db71'),
   ]),
   //12
   Course(name: '$course12', imageUrl: 'assets/images/node-js.png', links: [
     Links(
-        name: '(Coursera)',
+        name: 'Node.Js Courses(Coursera)',
         url: 'https://www.coursera.org/search?query=Node.Js'),
-    Links(name: '(Udemy)', url: 'https://www.udemy.com/topic/nodejs/'),
+    Links(name: 'Node.Js(Udemy)', url: 'https://www.udemy.com/topic/nodejs/'),
     Links(
-        name: '(Youtube channel)',
+        name: 'Nodejs session 1(Youtube channel)',
         url:
             'https://www.youtube.com/watch?v=Bzzp0q0T5oM&list=PLQtNtS-WfRa8OF9juY3k6WUWayMfDKHK2'),
   ]),
   //13
   Course(name: '$course13', imageUrl: 'assets/images/react.png', links: [
     Links(
-        name: '(Coursera)',
+        name: 'React JS Courses(Coursera)',
         url: 'https://www.coursera.org/search?query=React%20JS%20'),
-    Links(name: '(Udemy)', url: 'https://www.udemy.com/topic/react/'),
+    Links(name: 'React JS(Udemy)', url: 'https://www.udemy.com/topic/react/'),
     Links(
-        name: '(Youtube channel)',
+        name: 'React.js Basics in 90 Mins(Youtube channel)',
         url: 'https://www.youtube.com/watch?v=fJSFus0pxZI'),
     Links(
-        name: '(Youtube channel)',
+        name: 'React JS Course Intro(Youtube channel)',
         url:
             'https://www.youtube.com/watch?v=ihRRf3EjTV8&list=PLYyqC4bNbCIdSZ-JayMLl4WO2Cr995vyS'),
     Links(
-        name: '(Youtube channel)',
+        name: ' مقدمة عن الرياكت وماذا تحتاج لتعلمها(Youtube channel)',
         url:
             'https://www.youtube.com/watch?v=EtNyJQItRZk&list=PLpr1Lg_f0v3ojNKR4WzZ_SEXhiKBHDQmB'),
   ]),
   //14
   Course(name: '$course14', imageUrl: 'assets/images/python2.png', links: [
     Links(
-        name: '(Coursera)',
+        name: 'Python Courses(Coursera)',
         url: 'https://www.coursera.org/search?query=Python&'),
-    Links(name: '(Udemy)', url: 'https://www.udemy.com/topic/python/'),
+    Links(name: 'Python(Udemy)', url: 'https://www.udemy.com/topic/python/'),
     Links(
-        name: '(Youtube channel)',
+        name: 'اهمية تعلم البرمجة بلغة بايثون(Youtube channel)',
         url:
             'https://www.youtube.com/watch?v=h3VCQjyaLws&list=PLuXY3ddo_8nzrO74UeZQVZOb5-wIS6krJ'),
     Links(
-        name: '(Youtube channel)',
+        name: 'تعلم بايثون من الصفر الى الاحتراف(Youtube channel)',
         url:
             'https://www.youtube.com/watch?v=Do34NKMq80c&list=PLoP3S2S1qTfCUdNazAZY1LFALcUr0Vbs9'),
   ]),
   //15
   Course(name: '$course15', imageUrl: 'assets/images/full.png', links: [
     Links(
-        name: '(Coursera)',
+        name: 'Full Stack Web Development(Coursera)',
         url:
             'https://www.coursera.org/search?query=Full%20Stack%20Web%20Development%20'),
     Links(
-        name: '(Udemy)',
+        name: 'Full Stack Web Development Courses(Udemy)',
         url: 'https://www.udemy.com/topic/full-stack-web-development/'),
     Links(
-        name: '(Youtube channel)',
+        name: 'HMB | FSWD | Introduction(Youtube channel)',
         url:
             'https://www.youtube.com/watch?v=OKG_0CEKoj4&list=PLVrN2LRb7eT2B6v1EwsCS28QkkDTZ5LRm'),
     Links(
-        name: '(Youtube channel)',
+        name: 'Mastering HTML & CSS(Youtube channel)',
         url:
             'https://www.youtube.com/watch?v=bWACo_pvKxg&list=PLSDeUiTMfxW6VChKWb26Z_mPR4f6fAmMV'),
   ]),
@@ -440,161 +440,161 @@ List<Course> allCourses = [
   //18
   Course(name: '$course18', imageUrl: 'assets/images/HR.png', links: [
     Links(
-        name: '(ادراك)',
+        name: 'مبادئ إدارة الموارد البشرية (ادراك)',
         url: 'https://www.edraak.org/programs/course/ba_106-vba_106/'),
-    Links(name: '(LinkedIn)', url: 'https://lnkd.in/dAUzkkxS'),
+    Links(name: 'Advancing Your Skills as an HR Business Partner(LinkedIn)', url: 'https://lnkd.in/dAUzkkxS'),
     Links(
-        name: '(فرصة)',
+        name: 'دورة مجانية عبر الانترنت في مجال الموارد البشرية من كلية أكسفورد(فرصة)',
         url:
             'https://www.for9a.com/courses/%D8%AF%D9%88%D8%B1%D8%A9-%D9%85%D8%AC%D8%A7%D9%86%D9%8A%D8%A9-%D8%B9%D8%A8%D8%B1-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B1%D9%86%D8%AA-%D9%81%D9%8A-%D9%85%D8%AC%D8%A7%D9%84-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%B1%D8%AF-%D8%A7%D9%84%D8%A8%D8%B4%D8%B1%D9%8A%D8%A9-%D9%85%D9%86-%D9%83%D9%84%D9%8A%D8%A9-%D8%A3%D9%83%D8%B3%D9%81%D9%88%D8%B1%D8%AF'),
-    Links(name: '(Coursera)', url: 'https://lnkd.in/d8Xyzakb'),
+    Links(name: 'Recruiting, Hiring, and Onboarding Employee(Coursera)', url: 'https://lnkd.in/d8Xyzakb'),
     Links(
-        name: '(Coursera)',
+        name: 'Managing Employee Performance(Coursera)',
         url:
             'https://www.coursera.org/learn/employee-performance?specialization=human-resource-management'),
     Links(
-        name: '(Coursera)',
+        name: 'Managing Employee Performance(Coursera)',
         url:
             'https://www.coursera.org/learn/compensation-management?specialization=human-resource-management'),
     Links(
-        name: '(YouTube channel)',
+        name: 'HR diploma(YouTube channel)',
         url:
             'https://www.youtube.com/playlist?app=desktop&list=PLmFxJ_siqsf_GeZXK8HrAw4h0pDNwnbXe'),
     Links(
-        name: '(YouTube channel)',
+        name: 'HR basics(YouTube channel)',
         url:
             'https://www.youtube.com/playlist?app=desktop&list=PLdinyWzDfipPVYqpTc8EhWNDvEx14Nc1E'),
     Links(
-        name: '(YouTube channel)',
+        name: 'I am HR(YouTube channel)',
         url: 'https://www.youtube.com/@ana-HR/playlists'),
     Links(
-        name: '(YouTube channel)',
+        name: 'ما هو HR(YouTube channel)',
         url:
             'https://www.youtube.com/watch?v=CynlZ_aQmiQ&list=PLk5IPGcliDUWo_SjWuaB75Qv4-3rs14QY&index=3'),
     Links(
-        name: '(YouTube channel)',
+        name: 'hr course(YouTube channel)',
         url:
             'https://www.youtube.com/watch?v=HS1vvm1tsn4&list=PL5we_jj01We0HePMMQp7P13q145G-wM9E'),
     Links(
-        name: '(YouTube channel)',
+        name: 'مقدمة في علم الموارد البشرية(YouTube channel)',
         url:
             'https://www.youtube.com/watch?v=nhMYdxa1-9w&list=PLZJfcmIwJORp0EkS3zjiLtGOtVO44ro8M'),
     Links(
-        name: '(YouTube channel)',
+        name: 'تجميع داتا المتقدمين لوظيفة عن طريق HR(YouTube channel)',
         url:
             'https://www.youtube.com/watch?v=DuAIcCSEOX0&list=PLZJfcmIwJORqZkFlHvX26SJNUlZNSe-LT'),
     Links(
-        name: '(YouTube channel)',
+        name: 'استشارات وتدريب الموارد البشرية(YouTube channel)',
         url: 'https://www.youtube.com/@samerawadhr/playlists'),
     Links(
-        name: '(YouTube channel)',
+        name: 'ما هو الجديد في عالم الموارد البشرية (YouTube channel)',
         url:
             'https://www.youtube.com/watch?v=4BKI6B1iCcI&list=PLb2l66-lkbaHAiad5om5Ml2LkdMDEX_eW'),
     Links(
-        name: '(YouTube channel)',
+        name: 'أقوى وظيفة ممكن تشتغلها وتكتسب منها خبرة قوية(YouTube channel)',
         url:
             'https://www.youtube.com/watch?v=ZLmTn7j9EQ4&list=PLmLgmgH0PK5ss-g-Bhl3eg9Yk7PRgq0wb'),
   ]),
   //19
   Course(name: '$course19', imageUrl: 'assets/images/Graphic.png', links: [
     Links(
-        name: "Tera",
+        name: "design-principles-course(Tera)",
         url: 'https://teracourses.com/ar/course/design-principles-course1'),
     Links(
-        name: '(Almentor )',
+        name: 'احتراف تصميم Graphic -باستخدام برنامج InDesign(Almentor )',
         url:
             'https://www.almentor.net/courses/Graphic-Design-Masterclass---InDesign'),
     Links(
-        name: 'Almentor',
+        name: 'دبلومة تصميم الجرافيك للمستوى المتقدم(Almentor)',
         url: 'https://www.almentor.net/courses/Graphic-Design-MasterClass'),
     Links(
-        name: '(Almentor)',
+        name: 'الدورة الشاملة في تصميم الجرافيك(Almentor)',
         url:
             'https://www.almentor.net/courses/Advanced-Graphic-Design-Diploma'),
     Links(
-        name: '(Coursera)',
+        name: 'The Language of Design: Form and Meaning(Coursera)',
         url: 'https://www.coursera.org/learn/design-language'),
     Links(
-        name: '(Coursera)',
+        name: 'Graphic Design Specialization(Coursera)',
         url: 'https://www.coursera.org/specializations/graphic-design'),
     Links(
-        name: '(Udemy )',
+        name: 'The Complete Graphic Design Theory for Beginners Course(Udemy)',
         url:
             'https://www.udemy.com/course/graphic-design-theory-for-beginners-course/?couponCode=LETSLEARNNOW'),
     Links(
-        name: '(Udemy )',
+        name: 'Graphic Design course by the phone(Udemy)',
         url:
             'https://www.udemy.com/course/shabandesign/?couponCode=LETSLEARNNOW'),
     Links(
-        name: '(YouTube channel)',
+        name: 'ما هو graphic design(YouTube channel)',
         url:
             'https://www.youtube.com/playlist?list=PL4xeUOr3Yk9fzRsSYdITG-4t12_35NHIF'),
     Links(
-        name: '(YouTube channel)',
+        name: 'Graphic Design Basics(YouTube channel)',
         url:
             'https://www.youtube.com/watch?si=s25tCTWbPmIkrZes&v=GQS7wPujL2k&feature=youtu.be'),
     Links(
-        name: '(YouTube channel)',
+        name: 'Beginners guide to Graphic Design(YouTube channel)',
         url:
             'https://www.youtube.com/playlist?list=PLYfCBK8IplO4E2sXtdKMVpKJZRBEoMvpn'),
     Links(
-        name: '(YouTube channel)',
+        name: 'Adobe InDesign Tutorials(YouTube channel)',
         url:
             'https://www.youtube.com/playlist?list=PLkiM1tZke4mjYGYEoVUtnIwYT0V9sYc2u'),
     Links(
-        name: '(YouTube channel)',
+        name: 'Adobe Illustrator Tutorials(YouTube channel)',
         url:
             'https://www.youtube.com/playlist?list=PLkiM1tZke4mgObgITi5FL01sDHpz8wxx1'),
     Links(
-        name: '(YouTube channel)',
+        name: 'Adobe Photoshop Tutorials(YouTube channel)',
         url:
             'https://www.youtube.com/playlist?list=PLkiM1tZke4mgnuOBy1ORT_Ssha7cVOpjl'),
     Links(
-        name: '(YouTube channel)',
+        name: 'Design Review(YouTube channel)',
         url:
             'https://www.youtube.com/playlist?list=PLkiM1tZke4mhszWKjVremOJcppTZm8w9V'),
     Links(
-        name: '(YouTube channel)',
+        name: 'How to Design a Logo(YouTube channel)',
         url:
             'https://www.youtube.com/watch?si=lT654_HEvPH1zd8A&v=TF4_T7yMTOA&feature=youtu.be'),
     Links(
-        name: '(YouTube channel)',
+        name: 'Anik Jain graphic designer(YouTube channel)',
         url: 'https://www.youtube.com/@anikjaindesign'),
     Links(
-        name: '(YouTube channel)',
+        name: 'Become An EFFICIENT Graphic Designer!(YouTube channel)',
         url:
             'https://www.youtube.com/watch?si=-Y8FbSdLwXCK_q_q&v=OA0dB6rmhPc&feature=youtu.be'),
     Links(
-        name: '(YouTube channel)',
+        name: 'Adobe InDesign CC 2015(YouTube channel)',
         url:
             'https://www.youtube.com/playlist?list=PLZ5zEGbaMXXUIQRJ8XamBYdNrdALIljS1'),
     Links(
-        name: '(YouTube channel)',
+        name: 'Adobe Illustrator CC Course(YouTube channel)',
         url:
             'https://www.youtube.com/playlist?list=PLg9ps5Gu0MiC_T2Spv3tMmmQjhpCrKC7Z&si=2j9RIdRsV4Wzq3-U'),
     Links(
-        name: '(YouTube channel)',
+        name: 'قواعد التصميم الأكاديمية(YouTube channel)',
         url:
             'https://www.youtube.com/playlist?list=PLPTNqXpQ2tbgmAshpoR02QO4BfyWX3Dzs'),
-    Links(name: '(YouTube channel)', url: 'https://www.youtube.com/@MohKhayal'),
+    Links(name: 'Mohamed Khayal graphic designer(YouTube channel)', url: 'https://www.youtube.com/@MohKhayal'),
     Links(
-        name: '(YouTube channel)',
+        name: 'دروس تصميم جرافيك(YouTube channel)',
         url:
             'https://www.youtube.com/playlist?list=PL-7v-vvT0mkYyV6wakASLTekOooTpRRTx'),
     Links(
-        name: '(YouTube channel)',
+        name: 'التصميم الاعلاني والتجاري | المطبوعات الورقية(YouTube channel)',
         url:
             'https://www.youtube.com/playlist?list=PL-7v-vvT0mkZZwZnOb4f7zhgyYXV7BI4A'),
     Links(
-        name: '(YouTube channel)',
+        name: 'قواعد التصميم الأكاديمية(YouTube channel)',
         url:
             'https://www.youtube.com/playlist?list=PLPTNqXpQ2tbgmAshpoR02QO4BfyWX3Dzs'),
     Links(
-        name: '(YouTube channel)',
+        name: 'دورة الموشن جرافيك(YouTube channel)',
         url:
             'https://www.youtube.com/playlist?list=PLjG8az75XQywYb6KduNBmHUKTxRmVG63M'),
     Links(
-        name: '(YouTube channel)',
+        name: 'كيف تبدأ كمصمم جرافيك(YouTube channel)',
         url:
             'https://www.youtube.com/playlist?list=PLZ5zEGbaMXXXVYRa3t4ZE1jtSrGAfFkbr'),
   ]),
@@ -681,8 +681,37 @@ List<Course> allCourses = [
         url:
             'https://alison.com/course/diploma-in-social-media-marketing'),
     Links(
-        name: '(Neil Patel)',
+        name: 'العديد من النصائح والاستراتيجيات للتسويق الرقمي(Neil Patel)',
         url:
             'https://neilpatel.com/'),
+  ]),
+  //21
+    Course(name: '$course21', imageUrl: 'assets/images/programming.png', links: [
+    Links(
+        name: 'دورات برمجة',
+        url: 'https://www.m3aarf.com/certified/cat/12'),
+    Links(
+        name: 'تعلم البرمجة من الصفر بالعربي',
+        url: 'https://play.google.com/store/apps/details?id=com.base.octucode'),
+    Links(
+        name: 'تعلم البرمجة من الصفر مجانا - كورس برمجة للمبتدئين',
+        url:
+            'https://www.prceg.com/2018/11/learning-web-development.html'),
+    Links(
+        name: 'Coursera',
+        url:
+            'https://www.coursera.org/browse/computer-science?irclickid=3Wdw3OXZjxyNTYuTCpW%3AOxlEUkHWXq0fAQ1DQs0&irgwc=1&utm_medium=partners&utm_source=impact&utm_campaign=2829510&utm_content=b2c'),
+    Links(
+        name: 'Explore computer programming courses and programs',
+        url: 'https://www.edx.org/learn/computer-programming'),
+    Links(
+        name: 'Learn to Code',
+        url: 'https://www.w3schools.com/default.asp'),
+    Links(
+        name: 'Learn programming for free',
+        url: 'https://www.programiz.com/'),
+    Links(
+        name: 'Edraak',
+        url: 'https://play.google.com/store/apps/details?id=org.edraak.mobile'),
   ]),
 ];

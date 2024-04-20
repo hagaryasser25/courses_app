@@ -53,17 +53,20 @@ class _FetchCoursesState extends State<FetchCourses> {
                           ),
                           child: InkWell(
                             onTap: () {
-                             Navigator.push(context,
-                                    MaterialPageRoute(builder: (context) {
-                                  return WebViewContainer(url: '${widget.links[index].url}',
-                                    
-                                  );
-                                }));
+                              Navigator.push(context,
+                                  MaterialPageRoute(builder: (context) {
+                                return WebViewContainer(
+                                  url: '${widget.links[index].url}',
+                                );
+                              }));
                             },
                             child: Card(
                               child: ListTile(
                                 leading: Icon(Icons.video_camera_back),
-                                title: Text('${widget.links[index].name}'),
+                                title: Text(
+                                  '${widget.links[index].name}',
+                                  style: TextStyle(fontSize: 15),
+                                ),
                                 trailing: Icon(Icons.arrow_circle_right),
                               ),
                             ),
