@@ -19,15 +19,19 @@ class _SplashScreenState extends State<SplashScreen> {
           body: Padding(
         padding: const EdgeInsets.all(30.0),
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Align(alignment: Alignment.topRight, child: InkWell(
-              onTap: (){
-                Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => const HomePage()),
-                  );
-              },
-              child: Text('skip'))),
+            Align(
+                alignment: Alignment.topRight,
+                child: InkWell(
+                    onTap: () {
+                      Navigator.pushAndRemoveUntil(
+                        context,
+                        MaterialPageRoute(builder: (context) => HomePage()),
+                        (Route<dynamic> route) => false,
+                      );
+                    },
+                    child: Text('skip'))),
             Image.asset('assets/images/logo.png'),
             SizedBox(
               height: 20.h,
@@ -56,9 +60,10 @@ class _SplashScreenState extends State<SplashScreen> {
                   backgroundColor: HexColor('#3E7BF4'),
                 ),
                 onPressed: () {
-                  Navigator.push(
+                  Navigator.pushAndRemoveUntil(
                     context,
-                    MaterialPageRoute(builder: (context) => const HomePage()),
+                    MaterialPageRoute(builder: (context) => HomePage()),
+                    (Route<dynamic> route) => false,
                   );
                 },
                 child: Text(
