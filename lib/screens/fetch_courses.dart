@@ -7,6 +7,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:webview_flutter/webview_flutter.dart';
+import 'package:hexcolor/hexcolor.dart';
 
 class FetchCourses extends StatefulWidget {
   List<Links> links;
@@ -26,7 +27,8 @@ class _FetchCoursesState extends State<FetchCourses> {
       designSize: const Size(375, 812),
       builder: (context, child) => Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.blue,
+          iconTheme: IconThemeData(color: Colors.white),
+          backgroundColor: HexColor('#5690c5'),
           title: Center(
             child: Text(
               'Courses',
@@ -53,12 +55,15 @@ class _FetchCoursesState extends State<FetchCourses> {
                           ),
                           child: InkWell(
                             onTap: () {
+                              /*
                               Navigator.push(context,
                                   MaterialPageRoute(builder: (context) {
                                 return WebViewContainer(
                                   url: '${widget.links[index].url}',
                                 );
                               }));
+                              */
+                              
                             },
                             child: Card(
                               child: ListTile(

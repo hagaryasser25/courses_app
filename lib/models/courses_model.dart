@@ -10,44 +10,55 @@ class Links {
 class Course {
   final String name;
   final String imageUrl;
+  final String description;
   final List<Links> links;
 
   const Course(
-      {required this.name, required this.imageUrl, required this.links});
+      {required this.name,
+      required this.imageUrl,
+      required this.links,
+      required this.description});
 }
 
 List<Course> allCourses = [
-  Course(name: '$course1', imageUrl: 'assets/images/maths.png', links: [
-    Links(
-        name: '${beginners}(Coursera)',
-        url:
-            'https://www.coursera.org/specializations/mathematics-machine-learning'),
-    Links(
-        name: '${beginners}(Udemy)',
-        url:
-            'https://www.udemy.com/course/statistics-for-data-science-data-analytics/'),
-    Links(
-        name: '${beginners}(Youtube channel)',
-        url:
-            'https://www.youtube.com/watch?v=iyxqcS1u5go&pp=ygUqbWF0aGVtYXRpY3MgZm9yIG1hY2hpbmUgbGVhcm5pbmcgYmVnaW5uZXJz'),
-    Links(
-        name: '${intermediate}(Coursera)',
-        url: 'https://www.coursera.org/learn/mcmc-bayesian-statistics'),
-    Links(
-        name: '${intermediate}(Udemy)',
-        url:
-            'https://www.udemy.com/course/applied-mathematics-probability-statistics/'),
-    Links(
-        name: '${advanced}(Coursera)',
-        url:
-            'https://www.coursera.org/specializations/advanced-spacecraft-dynamics-control'),
-    Links(
-        name: '${advanced}(Udemy)',
-        url:
-            'https://www.udemy.com/course/math-for-data-sciencedata-analysis-and-python-programming/'),
-  ]),
+  Course(
+      name: '$course1',
+      imageUrl: 'assets/images/maths.png',
+      description:
+          ' هو مجال في علم الحاسوب يركز على تطوير تقنيات تمكن الأنظمة الحاسوبية من تحسين أدائها تلقائيًا عبر الزمن دون الحاجة إلى برمجة صريحة.',
+      links: [
+        Links(
+            name: '${beginners}(Coursera)',
+            url:
+                'https://www.coursera.org/specializations/mathematics-machine-learning'),
+        Links(
+            name: '${beginners}(Udemy)',
+            url:
+                'https://www.udemy.com/course/statistics-for-data-science-data-analytics/'),
+        Links(
+            name: '${beginners}(Youtube channel)',
+            url:
+                'https://www.youtube.com/watch?v=iyxqcS1u5go&pp=ygUqbWF0aGVtYXRpY3MgZm9yIG1hY2hpbmUgbGVhcm5pbmcgYmVnaW5uZXJz'),
+        Links(
+            name: '${intermediate}(Coursera)',
+            url: 'https://www.coursera.org/learn/mcmc-bayesian-statistics'),
+        Links(
+            name: '${intermediate}(Udemy)',
+            url:
+                'https://www.udemy.com/course/applied-mathematics-probability-statistics/'),
+        Links(
+            name: '${advanced}(Coursera)',
+            url:
+                'https://www.coursera.org/specializations/advanced-spacecraft-dynamics-control'),
+        Links(
+            name: '${advanced}(Udemy)',
+            url:
+                'https://www.udemy.com/course/math-for-data-sciencedata-analysis-and-python-programming/'),
+      ]),
   //2
-  Course(name: '$course2', imageUrl: 'assets/images/python.png', links: [
+  Course(name: '$course2', imageUrl: 'assets/images/python.png', 
+  description: 'لغة البايثون هي لغة برمجة عالية المستوى تم تطويرها في أوائل التسعينيات من قبل غويدو فان روسوم. تتميز بسهولة قراءة الشفرة وبناءها، مما يجعلها مثالية للمبتدئين ولكنها قوية ومرنة بما يكفي لتلبية احتياجات المطورين المحترفين. تستخدم في مجموعة متنوعة من التطبيقات بما في ذلك تطوير الويب، وعلم البيانات، والذكاء الاصطناعي، والتطبيقات المحمولة، والأتمتة، وغيرها الكثير.',
+  links: [
     Links(
         name: '${beginners}(Coursera)',
         url:
@@ -82,7 +93,9 @@ List<Course> allCourses = [
         url: 'https://youtu.be/QLTdOEn79Rc?si=9aNL7fvpS3hMSUNZ'),
   ]),
   //3
-  Course(name: '$course3', imageUrl: 'assets/images/mySql.png', links: [
+  Course(name: '$course3', imageUrl: 'assets/images/mySql.png',
+  description: 'MySQL هو نظام إدارة قواعد البيانات الشهير والمفتوح المصدر. تم تطويره بواسطة شركة MySQL AB التي تأسست في عام 1995، والتي تم استحواذها فيما بعد بواسطة شركة Sun Microsystems ومن ثم Oracle Corporation. MySQL يعتبر أحد أنظمة إدارة قواعد البيانات الأكثر استخدامًا في العالم، ويُستخدم في تطوير تطبيقات الويب والأنظمة الخلفية للعديد من المواقع والخدمات الإلكترونية. يتميز MySQL بالسرعة والموثوقية والسهولة في الاستخدام، بالإضافة إلى دعمه الواسع للغات المختلفة مثل PHP وPython وJava وغيرها، مما يجعله محط أنظار المطورين في مختلف المجالات.',
+   links: [
     Links(
         name: '${beginners}(Coursera)',
         url:
@@ -118,7 +131,9 @@ List<Course> allCourses = [
             'https://www.youtube.com/watch?si=EB8sVsuduST5OKuh&v=m1KcNV-Zhmc&feature=youtu.be'),
   ]),
   //4
-  Course(name: '$course4', imageUrl: 'assets/images/mongo.png', links: [
+  Course(name: '$course4', imageUrl: 'assets/images/mongo.png', 
+  description: 'MongoDB هو نظام إدارة قواعد البيانات غير العلاقية (NoSQL) المفتوح المصدر. تم تطويره بلغة البرمجة C++ ويوفر تخزينًا مرنًا وقابل للتوسع للبيانات غير المهيكلة، مثل الوثائق والملفات والبيانات الشبيهة بال JSON. يتميز MongoDB بالسرعة والقدرة على التكيف مع التطبيقات ذات الحملات الثقيلة، مما جعله شائعًا في مجالات مثل التطبيقات الويب، والتحليل الضخم للبيانات، وتطبيقات الألعاب، والأنظمة الموزعة.',
+  links: [
     Links(
         name: '${beginners}(Coursera)',
         url: 'https://www.coursera.org/learn/introduction-to-mongodb'),
@@ -151,7 +166,9 @@ List<Course> allCourses = [
         url: 'https://www.youtube.com/watch?v=8eJJe4Slnik'),
   ]),
   //5
-  Course(name: '$course5', imageUrl: 'assets/images/machine.png', links: [
+  Course(name: '$course5', imageUrl: 'assets/images/machine.png',
+  description: ' هو مجال في علم الحاسوب يركز على تطوير تقنيات تمكن الأنظمة الحاسوبية من تحسين أدائها تلقائيًا عبر الزمن دون الحاجة إلى برمجة صريحة.',
+   links: [
     Links(
         name: '${beginners}(Coursera)',
         url:
@@ -185,7 +202,9 @@ List<Course> allCourses = [
             'https://www.udemy.com/course/artificial-intelligence-and-machine-learning-fundamentals/?couponCode=2021PM25'),
   ]),
   //6
-  Course(name: '$course6', imageUrl: 'assets/images/ml.png', links: [
+  Course(name: '$course6', imageUrl: 'assets/images/ml.png', 
+  description: 'خوارزميات التعلم الآلي (Machine Learning Algorithms) هي مجموعة من الأساليب والتقنيات التي تستخدم في تطوير نماذج التعلم الآلي لتحليل البيانات واستخلاص الأنماط واتخاذ القرارات التنبؤية. هذه الخوارزميات تتنوع بشكل كبير ويتم اختيارها وفقًا لنوع المشكلة ونوع البيانات والأهداف المرجوة. ',
+  links: [
     Links(
         name: '${beginners}(Coursera)',
         url: 'https://www.coursera.org/learn/ml-algorithms'),
@@ -214,7 +233,9 @@ List<Course> allCourses = [
             'https://www.youtube.com/watch?si=5OLpBvxuVoQbFRiW&v=I7NrVwm3apg&feature=youtu.be'),
   ]),
   //7
-  Course(name: '$course7', imageUrl: 'assets/images/deep.png', links: [
+  Course(name: '$course7', imageUrl: 'assets/images/deep.png',
+  description: 'التعلم العميق (Deep Learning) هو فرع من فروع التعلم الآلي يركز على استخدام الشبكات العصبية الاصطناعية لتعلم البيانات المتوافرة. يعتبر التعلم العميق عبارة عن عملية تلقائية لتمثيل البيانات بطريقة تدرجاتية من الطبقات المتعددة، تسمى الشبكات العصبية العميقة',
+   links: [
     Links(
         name: '${beginners}(Coursera)',
         url:
@@ -245,7 +266,9 @@ List<Course> allCourses = [
         url: 'https://www.youtube.com/watch?v=Xvwt7y2jf5E'),
   ]),
   //8
-  Course(name: '$course8', imageUrl: 'assets/images/data.png', links: [
+  Course(name: '$course8', imageUrl: 'assets/images/data.png',
+  description: 'توجد العديد من الأدوات المستخدمة لتصور البيانات (Data Visualization)، والتي تهدف إلى تحويل البيانات إلى صور ورسوم بيانية سهلة الفهم والتي تسهل على المستخدمين فهم النماذج والاتجاهات والعلاقات في البيانات.',
+   links: [
     Links(
         name: '${beginners}(Coursera)',
         url:
@@ -279,7 +302,9 @@ List<Course> allCourses = [
             'https://www.youtube.com/watch?v=DQqot_7Ctus&pp=ygUTZGF0YSB2aXN1YWxpemF0aW9uIA%3D%3D'),
   ]),
   //9
-  Course(name: '$course9', imageUrl: 'assets/images/html.png', links: [
+  Course(name: '$course9', imageUrl: 'assets/images/html.png', 
+  description: 'HTML (HyperText Markup Language)، CSS (Cascading Style Sheets)، وJavaScript هي الأساسيات الثلاثة لتطوير صفحات الويب التفاعلية',
+  links: [
     Links(
         name: 'HTML, CSS, and Javascript(Coursera)',
         url:
@@ -291,9 +316,12 @@ List<Course> allCourses = [
     Links(
         name: 'web development css(Coursera)',
         url: 'https://www.coursera.org/search?query=web%20development%20css'),
-    Links(name: 'HTML Courses(Udemy)', url: 'https://www.udemy.com/topic/html/'),
+    Links(
+        name: 'HTML Courses(Udemy)', url: 'https://www.udemy.com/topic/html/'),
     Links(name: 'CSS Courses(Udemy)', url: 'https://www.udemy.com/topic/css/'),
-    Links(name: 'JavaScript Courses(Udemy)', url: 'https://www.udemy.com/topic/javascript/'),
+    Links(
+        name: 'JavaScript Courses(Udemy)',
+        url: 'https://www.udemy.com/topic/javascript/'),
     Links(
         name: 'كيف تصبح مبرمج(Youtube channel)',
         url:
@@ -310,7 +338,9 @@ List<Course> allCourses = [
             'https://www.youtube.com/watch?v=VZhZ7mX6_jc&list=PL0fZfIBWrsucq6XAZgLuig8nRi5IcVF2o'),
   ]),
   //10
-  Course(name: '$course10', imageUrl: 'assets/images/frontend.png', links: [
+  Course(name: '$course10', imageUrl: 'assets/images/frontend.png',
+  description: 'تطوير الواجهة الأمامية (Front-end Development) هو عملية تطوير وبناء جزء الواجهة الرئيسي لموقع الويب أو تطبيق الويب. يتمثل دور مطور الواجهة الأمامية في تحويل التصاميم والمتطلبات إلى صفحات واجهة مستخدم قابلة للتفاعل وسهلة الاستخدام.',
+   links: [
     Links(
         name: 'Front End Web Development(Coursera)',
         url:
@@ -327,8 +357,12 @@ List<Course> allCourses = [
         url: 'https://www.youtube.com/watch?v=zJSY8tbf_ys'),
   ]),
   //11
-  Course(name: '$course11', imageUrl: 'assets/images/php.png', links: [
-    Links(name: 'PHP Courses(Coursera)', url: 'https://www.coursera.org/search?query=PHP'),
+  Course(name: '$course11', imageUrl: 'assets/images/php.png',
+  description: 'PHP تعتبر اختصارًا لـ "Hypertext Preprocessor". إنها لغة برمجة سكريبت مفتوحة المصدر تستخدم أساسًا في تطوير تطبيقات الويب والصفحات الديناميكية. تم تطوير PHP بواسطة راسموس ليردورف في عام 1994، وهو يعتبر واحدًا من أكثر لغات البرمجة شيوعًا في عالم تطوير الويب.',
+   links: [
+    Links(
+        name: 'PHP Courses(Coursera)',
+        url: 'https://www.coursera.org/search?query=PHP'),
     Links(name: 'PHP(Udemy)', url: 'https://www.udemy.com/topic/php/'),
     Links(
         name: 'التعرف على لغة PHP(Youtube channel)',
@@ -340,7 +374,9 @@ List<Course> allCourses = [
             'https://www.youtube.com/watch?v=4JLErNiQowQ&list=PLe_UJpVeP8qBr0IotQa16V0TCLsf3db71'),
   ]),
   //12
-  Course(name: '$course12', imageUrl: 'assets/images/node-js.png', links: [
+  Course(name: '$course12', imageUrl: 'assets/images/node-js.png',
+  description: 'Node.js هو بيئة تشغيل (runtime environment) لتنفيذ الكود المكتوب بلغة JavaScript خارج المتصفح. يعتمد Node.js على محرك V8 JavaScript engine المستخدم أساسًا في متصفح Google Chrome. تم تطوير Node.js بواسطة راين دال في عام 2009.',
+   links: [
     Links(
         name: 'Node.Js Courses(Coursera)',
         url: 'https://www.coursera.org/search?query=Node.Js'),
@@ -351,7 +387,9 @@ List<Course> allCourses = [
             'https://www.youtube.com/watch?v=Bzzp0q0T5oM&list=PLQtNtS-WfRa8OF9juY3k6WUWayMfDKHK2'),
   ]),
   //13
-  Course(name: '$course13', imageUrl: 'assets/images/react.png', links: [
+  Course(name: '$course13', imageUrl: 'assets/images/react.png',
+  description: 'React.js هو إطار عمل (Framework) لتطوير واجهات المستخدم (UI) تم تطويره من قبل Facebook ومجتمع مطورين ويُستخدم لبناء تطبيقات الويب الحديثة والديناميكية. يعتمد React.js على مفهوم تصميم الواجهة الرسومية (UI) القائمة على المكونات (Component-Based UI)، حيث يتم تقسيم واجهة المستخدم إلى مكونات صغيرة قابلة لإعادة الاستخدام.',
+   links: [
     Links(
         name: 'React JS Courses(Coursera)',
         url: 'https://www.coursera.org/search?query=React%20JS%20'),
@@ -369,7 +407,9 @@ List<Course> allCourses = [
             'https://www.youtube.com/watch?v=EtNyJQItRZk&list=PLpr1Lg_f0v3ojNKR4WzZ_SEXhiKBHDQmB'),
   ]),
   //14
-  Course(name: '$course14', imageUrl: 'assets/images/python2.png', links: [
+  Course(name: '$course14', imageUrl: 'assets/images/python2.png',
+  description: 'لغة البايثون هي لغة برمجة عالية المستوى تم تطويرها في أوائل التسعينيات من قبل غويدو فان روسوم. تتميز بسهولة قراءة الشفرة وبناءها، مما يجعلها مثالية للمبتدئين ولكنها قوية ومرنة بما يكفي لتلبية احتياجات المطورين المحترفين. تستخدم في مجموعة متنوعة من التطبيقات بما في ذلك تطوير الويب، وعلم البيانات، والذكاء الاصطناعي، والتطبيقات المحمولة، والأتمتة، وغيرها الكثير.',
+   links: [
     Links(
         name: 'Python Courses(Coursera)',
         url: 'https://www.coursera.org/search?query=Python&'),
@@ -384,7 +424,9 @@ List<Course> allCourses = [
             'https://www.youtube.com/watch?v=Do34NKMq80c&list=PLoP3S2S1qTfCUdNazAZY1LFALcUr0Vbs9'),
   ]),
   //15
-  Course(name: '$course15', imageUrl: 'assets/images/full.png', links: [
+  Course(name: '$course15', imageUrl: 'assets/images/full.png', 
+  description: 'تطوير الويب الكامل (Full Stack Web Development) يشير إلى قدرة المطور على بناء تطبيقات الويب بالكامل من الجبهة (Front-end) إلى الخلف (Back-end). بمعنى آخر، المطور الكامل القدرة على التعامل مع جميع جوانب تطوير التطبيقات الويب بمفرده، بما في ذلك تصميم وتطوير واجهة المستخدم، وتنفيذ الجزء الخلفي للتطبيق، والتواصل مع قواعد البيانات.',
+  links: [
     Links(
         name: 'Full Stack Web Development(Coursera)',
         url:
@@ -402,7 +444,9 @@ List<Course> allCourses = [
             'https://www.youtube.com/watch?v=bWACo_pvKxg&list=PLSDeUiTMfxW6VChKWb26Z_mPR4f6fAmMV'),
   ]),
   //16
-  Course(name: '$course16', imageUrl: 'assets/images/project.png', links: [
+  Course(name: '$course16', imageUrl: 'assets/images/project.png',
+  description: 'هي عملية قيادة فريق لتحقيق جميع أهداف المشروع ضمن القيود المحددة. تُوصف هذه المعلومات عادة في وثائق المشروع، التي تُنشأ في بداية عملية التطوير. وتكمن التحديات الرئيسية في نطاق المشروع والوقت والميزانية.والتحدي الثانوي هو تحسين تخصيص الإمدادات اللازمة وتطبيقها لتحقيق الأهداف المحددة مسبقًا.',
+   links: [
     Links(
         name: '(How to Start a Project - 5 Key Steps)',
         url: 'https://www.youtube.com/watch?v=h1ooM4vaOaU'),
@@ -431,23 +475,32 @@ List<Course> allCourses = [
         url: 'https://www.youtube.com/watch?v=AARO3VYfymg'),
   ]),
   //17
-  Course(name: '$course17', imageUrl: 'assets/images/software.png', links: [
+  Course(name: '$course17', imageUrl: 'assets/images/software.png',
+  description: 'تطوير البرمجيات (Software Development) هو عملية إنشاء وتطوير البرمجيات التي تتضمن تصميم وتطوير واختبار وصيانة البرامج الحاسوبية.',
+   links: [
     Links(
         name: '(Programming Courses)',
         url: 'https://www.coursat.org/category/programming'),
     Links(name: '(Programming Courses)', url: 'https://www.korsatcode.com/'),
   ]),
   //18
-  Course(name: '$course18', imageUrl: 'assets/images/HR.png', links: [
+  Course(name: '$course18', imageUrl: 'assets/images/HR.png',
+  description: 'HR تعني الموارد البشرية (Human Resources)، وهي القسم في المؤسسات والشركات المسؤول عن إدارة العمليات المتعلقة بالموظفين. ',
+   links: [
     Links(
         name: 'مبادئ إدارة الموارد البشرية (ادراك)',
         url: 'https://www.edraak.org/programs/course/ba_106-vba_106/'),
-    Links(name: 'Advancing Your Skills as an HR Business Partner(LinkedIn)', url: 'https://lnkd.in/dAUzkkxS'),
     Links(
-        name: 'دورة مجانية عبر الانترنت في مجال الموارد البشرية من كلية أكسفورد(فرصة)',
+        name: 'Advancing Your Skills as an HR Business Partner(LinkedIn)',
+        url: 'https://lnkd.in/dAUzkkxS'),
+    Links(
+        name:
+            'دورة مجانية عبر الانترنت في مجال الموارد البشرية من كلية أكسفورد(فرصة)',
         url:
             'https://www.for9a.com/courses/%D8%AF%D9%88%D8%B1%D8%A9-%D9%85%D8%AC%D8%A7%D9%86%D9%8A%D8%A9-%D8%B9%D8%A8%D8%B1-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B1%D9%86%D8%AA-%D9%81%D9%8A-%D9%85%D8%AC%D8%A7%D9%84-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%B1%D8%AF-%D8%A7%D9%84%D8%A8%D8%B4%D8%B1%D9%8A%D8%A9-%D9%85%D9%86-%D9%83%D9%84%D9%8A%D8%A9-%D8%A3%D9%83%D8%B3%D9%81%D9%88%D8%B1%D8%AF'),
-    Links(name: 'Recruiting, Hiring, and Onboarding Employee(Coursera)', url: 'https://lnkd.in/d8Xyzakb'),
+    Links(
+        name: 'Recruiting, Hiring, and Onboarding Employee(Coursera)',
+        url: 'https://lnkd.in/d8Xyzakb'),
     Links(
         name: 'Managing Employee Performance(Coursera)',
         url:
@@ -496,7 +549,9 @@ List<Course> allCourses = [
             'https://www.youtube.com/watch?v=ZLmTn7j9EQ4&list=PLmLgmgH0PK5ss-g-Bhl3eg9Yk7PRgq0wb'),
   ]),
   //19
-  Course(name: '$course19', imageUrl: 'assets/images/Graphic.png', links: [
+  Course(name: '$course19', imageUrl: 'assets/images/Graphic.png',
+  description: 'HR تعني الموارد البشرية (Human Resources)، وهي القسم في المؤسسات والشركات المسؤول عن إدارة العمليات المتعلقة بالموظفين. ',
+   links: [
     Links(
         name: "design-principles-course(Tera)",
         url: 'https://teracourses.com/ar/course/design-principles-course1'),
@@ -576,7 +631,9 @@ List<Course> allCourses = [
         name: 'قواعد التصميم الأكاديمية(YouTube channel)',
         url:
             'https://www.youtube.com/playlist?list=PLPTNqXpQ2tbgmAshpoR02QO4BfyWX3Dzs'),
-    Links(name: 'Mohamed Khayal graphic designer(YouTube channel)', url: 'https://www.youtube.com/@MohKhayal'),
+    Links(
+        name: 'Mohamed Khayal graphic designer(YouTube channel)',
+        url: 'https://www.youtube.com/@MohKhayal'),
     Links(
         name: 'دروس تصميم جرافيك(YouTube channel)',
         url:
@@ -599,7 +656,9 @@ List<Course> allCourses = [
             'https://www.youtube.com/playlist?list=PLZ5zEGbaMXXXVYRa3t4ZE1jtSrGAfFkbr'),
   ]),
   //20
-  Course(name: '$course20', imageUrl: 'assets/images/marketing.png', links: [
+  Course(name: '$course20', imageUrl: 'assets/images/marketing.png',
+  description: 'يضم التسويق أساليب متنوعة تشمل التسويق الإلكتروني، التسويق المباشر، التسويق عبر الوسيط، والتسويق المجتمعي، إلى جانب أنواع أخرى مثل التسويق الداخلي والتسويق المؤثر. تساعد هذه الأنواع الشركات على تحديد الاستراتيجية الأمثل للوصول إلى الجمهور المستهدف وبناء علاقات متينة مع العملاء.يساهم التسويق في جعل استراتيجية الشركة متوافقة مع متطلبات السوق، حيث يعمل على تطويرها بشكل مستمر لتبقى مواكبة لها. يسهل التسويق إيصال المنتج للزبائن، وذلك من خلال اتباع طرق الترويج المختلفة. يعزز العلاقة بين المنتج والزبائن، ويمنح الشركة ثقة الزبائن بالمنتجات التي تقدمها',
+   links: [
     Links(
         name: "تسويق الوسائط الاجتماعية(HubSpot Academy)",
         url: 'https://academy.hubspot.com/courses/social-media'),
@@ -678,25 +737,22 @@ List<Course> allCourses = [
         url: 'https://www.semrush.com/academy/courses/seo-fundamentals-course'),
     Links(
         name: 'Diploma in Social Media Marketing(Alison)',
-        url:
-            'https://alison.com/course/diploma-in-social-media-marketing'),
+        url: 'https://alison.com/course/diploma-in-social-media-marketing'),
     Links(
         name: 'العديد من النصائح والاستراتيجيات للتسويق الرقمي(Neil Patel)',
-        url:
-            'https://neilpatel.com/'),
+        url: 'https://neilpatel.com/'),
   ]),
   //21
-    Course(name: '$course21', imageUrl: 'assets/images/programming.png', links: [
-    Links(
-        name: 'دورات برمجة',
-        url: 'https://www.m3aarf.com/certified/cat/12'),
+  Course(name: '$course21', imageUrl: 'assets/images/programming.png', 
+  description: 'البرمجة هي عملية كتابة تعليمات محددة للكمبيوتر لتنفيذ مهمة معينة. تتطلب عملية البرمجة استخدام لغة برمجة محددة، وهي مجموعة من القواعد والتركيبات التي يمكن من خلالها كتابة التعليمات وتفسيرها من قبل الحاسوب.',
+  links: [
+    Links(name: 'دورات برمجة', url: 'https://www.m3aarf.com/certified/cat/12'),
     Links(
         name: 'تعلم البرمجة من الصفر بالعربي',
         url: 'https://play.google.com/store/apps/details?id=com.base.octucode'),
     Links(
         name: 'تعلم البرمجة من الصفر مجانا - كورس برمجة للمبتدئين',
-        url:
-            'https://www.prceg.com/2018/11/learning-web-development.html'),
+        url: 'https://www.prceg.com/2018/11/learning-web-development.html'),
     Links(
         name: 'Coursera',
         url:
@@ -704,12 +760,9 @@ List<Course> allCourses = [
     Links(
         name: 'Explore computer programming courses and programs',
         url: 'https://www.edx.org/learn/computer-programming'),
+    Links(name: 'Learn to Code', url: 'https://www.w3schools.com/default.asp'),
     Links(
-        name: 'Learn to Code',
-        url: 'https://www.w3schools.com/default.asp'),
-    Links(
-        name: 'Learn programming for free',
-        url: 'https://www.programiz.com/'),
+        name: 'Learn programming for free', url: 'https://www.programiz.com/'),
     Links(
         name: 'Edraak',
         url: 'https://play.google.com/store/apps/details?id=org.edraak.mobile'),
