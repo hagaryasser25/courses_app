@@ -1,3 +1,4 @@
+import 'package:courses_app/screens/animation.dart';
 import 'package:courses_app/screens/home_page.dart';
 import 'package:courses_app/screens/splash_screen.dart';
 import 'package:flutter/material.dart';

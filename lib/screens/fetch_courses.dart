@@ -2,12 +2,14 @@ import 'dart:async';
 
 import 'package:courses_app/consts/conststant.dart';
 import 'package:courses_app/models/courses_model.dart';
+import 'package:courses_app/screens/video_player.dart';
 import 'package:courses_app/screens/webview_container.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 import 'package:hexcolor/hexcolor.dart';
+import 'package:icon_animated/icon_animated.dart';
 
 class FetchCourses extends StatefulWidget {
   List<Links> links;
@@ -19,6 +21,12 @@ class FetchCourses extends StatefulWidget {
 
 class _FetchCoursesState extends State<FetchCourses> {
   Completer<WebViewController> _controller = Completer<WebViewController>();
+  bool active = true;
+  @override
+  void initState() {
+    active = true;
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -55,14 +63,20 @@ class _FetchCoursesState extends State<FetchCourses> {
                           ),
                           child: InkWell(
                             onTap: () {
-                              /*
+                              widget.links[index].video == true ?
+                              Navigator.push(context,
+                                  MaterialPageRoute(builder: (context) {
+                                return VideoPlayer(
+                                  url: '${widget.links[index].url}',
+                                );
+                              }))
+                              :
                               Navigator.push(context,
                                   MaterialPageRoute(builder: (context) {
                                 return WebViewContainer(
                                   url: '${widget.links[index].url}',
                                 );
                               }));
-                              */
                               
                             },
                             child: Card(
@@ -72,7 +86,12 @@ class _FetchCoursesState extends State<FetchCourses> {
                                   '${widget.links[index].name}',
                                   style: TextStyle(fontSize: 15),
                                 ),
-                                trailing: Icon(Icons.arrow_circle_right),
+                                trailing: IconAnimated(
+                                    color:
+                                        const Color.fromARGB(255, 88, 88, 88),
+                                    active: active, // boolean
+                                    size: 50,
+                                    iconType: IconType.message),
                               ),
                             ),
                           ),
