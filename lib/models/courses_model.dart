@@ -943,6 +943,10 @@ List<Course> allCourses = [
         video: false),
     Links(name: 'Learn to Code', url: 'https://www.w3schools.com/default.asp',
     video: false),
+    Links(name: "Linked In", url: 'https://linkedin-learning.pxf.io/kjaze3',
+    video: false),
+    Links(name: "Code School", url: 'https://www.pluralsight.com/codeschool',
+    video: false),
     Links(
         name: 'Learn programming for free', url: 'https://www.programiz.com/',
         video: false),
