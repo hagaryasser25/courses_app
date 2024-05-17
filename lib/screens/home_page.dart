@@ -92,20 +92,7 @@ class _HomePageState extends State<HomePage> {
                         onTap: () => launchUrl(Uri.parse(
                             'https://www.facebook.com/people/A-Way-To-Learn/61558212945799/?mibextid=ZbWKwL')),
                       )),
-                  Divider(
-                    thickness: 0.8,
-                    color: Colors.grey,
-                  ),
-                  ListTile(
-                      leading: Icon(
-                        Icons.photo_album,
-                      ),
-                      title: const Text('instagram'),
-                      subtitle: InkWell(
-                        child: Text('Open'),
-                        onTap: () =>
-                            launchUrl(Uri.parse('https://www.instagram.com/')),
-                      )),
+                  
                 ],
               ),
             )),

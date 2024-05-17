@@ -876,10 +876,6 @@ List<Course> allCourses = [
             url: 'https://grow.google/intl/uk/',
             video: false),
         Links(
-            name: 'تسويق المحتوى(Alison)',
-            url: 'https://alison.com/course/introduction-to-content-marketing',
-            video: false),
-        Links(
             name: 'تسويق الشبكات الاجتماعية(Udemy)',
             url:
                 'https://www.udemy.com/course/social-media-marketing-strategy/?couponCode=ST7MT41824',
@@ -888,11 +884,6 @@ List<Course> allCourses = [
             name: 'أساسيات التسويق(LinkedIn Learning)',
             url:
                 'https://www.linkedin.com/learning/marketing-foundations-17249206',
-            video: false),
-        Links(
-            name: 'تسويق المحتوى الرقمي(مجتمع تطوير الأعمال الرقمية)',
-            url:
-                'http://www.digitalbusiness.community/courses/digital-content-marketing',
             video: false),
         Links(
             name: 'تحليلات التسويق الرقمي(مجتمع تطوير الأعمال الرقمية)',
@@ -936,15 +927,6 @@ List<Course> allCourses = [
         Links(
             name: 'Facebook Ads(Facebook Blueprint)',
             url: 'https://www.facebook.com/business/learn/courses',
-            video: false),
-        Links(
-            name: 'SEO Fundamentals(SEMrush Academy)',
-            url:
-                'https://www.semrush.com/academy/courses/seo-fundamentals-course',
-            video: false),
-        Links(
-            name: 'Diploma in Social Media Marketing(Alison)',
-            url: 'https://alison.com/course/diploma-in-social-media-marketing',
             video: false),
         Links(
             name: 'العديد من النصائح والاستراتيجيات للتسويق الرقمي(Neil Patel)',
