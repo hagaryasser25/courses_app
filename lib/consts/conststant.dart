@@ -24,4 +24,5 @@ String course18 = 'HR';
 String course19 = 'GRAPHIC DESIGN ';
 String course20 = 'Marketing courses ';
 String course21 = 'Programming';
-
+String course22 = 'SAP';
+String course23 = 'ICDL';

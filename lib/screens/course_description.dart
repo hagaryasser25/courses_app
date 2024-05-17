@@ -46,52 +46,53 @@ class _CourseDescriptionState extends State<CourseDescription> {
           ),
           body: Padding(
             padding: const EdgeInsets.all(10.0),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: [
-                Card(
-                  clipBehavior: Clip.antiAliasWithSaveLayer,
-                  child: Column(
-                    children: [
-                      SizedBox(
-                        child: Image.asset(
-                          '${widget.imageUrl}',
-                          fit: BoxFit.fill,
+            child: SingleChildScrollView(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  Card(
+                    clipBehavior: Clip.antiAliasWithSaveLayer,
+                    child: Column(
+                      children: [
+                        SizedBox(
+                          child: Image.asset(
+                            '${widget.imageUrl}',
+                            fit: BoxFit.fill,
+                          ),
                         ),
-                      ),
-                    ],
-                  ),
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(10.0),
-                  ),
-                  elevation: 5,
-                  margin: EdgeInsets.all(10),
-                ),
-                SizedBox(
-                  height: 20.h,
-                ),
-                Text('${widget.description}'),
-                SizedBox(
-                  height: 30.h,
-                ),
-                ElevatedButton(
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: HexColor('#5690c5'),
+                      ],
                     ),
-                    onPressed: () {
-                      Navigator.push(context,
-                          MaterialPageRoute(builder: (context) {
-                        return FetchCourses(
-                          links: widget.links,
-                          
-                        );
-                      }));
-                    },
-                    child: Text(
-                      'Next',
-                      style: TextStyle(color: Colors.white),
-                    ))
-              ],
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(10.0),
+                    ),
+                    elevation: 5,
+                    margin: EdgeInsets.all(10),
+                  ),
+                  SizedBox(
+                    height: 20.h,
+                  ),
+                  Text('${widget.description}'),
+                  SizedBox(
+                    height: 30.h,
+                  ),
+                  ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: HexColor('#5690c5'),
+                      ),
+                      onPressed: () {
+                        Navigator.push(context,
+                            MaterialPageRoute(builder: (context) {
+                          return FetchCourses(
+                            links: widget.links,
+                          );
+                        }));
+                      },
+                      child: Text(
+                        'Next',
+                        style: TextStyle(color: Colors.white),
+                      ))
+                ],
+              ),
             ),
           ),
         ),
